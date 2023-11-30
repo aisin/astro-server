@@ -11,7 +11,7 @@ const mp = {
 
 const getIntro = function(name) {
   const res = mp[name];
-  return res || gd;
+  return { detail: res || gd };
 };
 
 module.exports = { getIntro };

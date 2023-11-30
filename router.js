@@ -6,7 +6,7 @@ const router = express.Router();
 // 主页路由
 router.get("/", (req, res) => {
   const name = req.query.name;
-  res.send(getIntro(name));
+  res.json(getIntro(name));
 });
 
 module.exports = router;
