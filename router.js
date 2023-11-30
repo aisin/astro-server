@@ -1,5 +1,5 @@
 const express = require("express");
-const { getIntro } = require('./provice');
+const { getIntro } = require('./province');
 
 const router = express.Router();
 
