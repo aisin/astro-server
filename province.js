@@ -72,7 +72,7 @@ const mp = {
 
 const getIntro = function(name) {
   const res = mp[name];
-  return { detail: res || bj };
+  return { code: 0, data: res || bj };
 };
 
 module.exports = { getIntro };
